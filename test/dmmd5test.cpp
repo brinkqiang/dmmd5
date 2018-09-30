@@ -1,10 +1,14 @@
 
-#include "dmos.h"
-#include "dmutil.h"
-#include "dmtypes.h"
-#include "dmformat.h"
+#include "dmmd5.h"
+#include <string>
+#include <iostream>
 
 int main( int argc, char* argv[] ) {
-	std::cout << fmt::format("{0} {1}", "hello world! ", DMFormatDateTime());
+	
+    std::string strData = "1";
+    std::string strMD5 = CDMMD5::GetMD5(strData);
+
+    std::cout << strMD5 << std::endl;
+
     return 0;
 }
