@@ -38,7 +38,7 @@ int main( int argc, char* argv[] ) {
 ```
 $ echo -n 1 | md5sum
 c4ca4238a0b923820dcc509a6f75849b  -
-$ ./bin/dmmd5test  
+$ sh build.sh && ./bin/dmmd5test
 c4ca4238a0b923820dcc509a6f75849b
 ```
 ## Contacts
