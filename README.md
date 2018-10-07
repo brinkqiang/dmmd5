@@ -18,7 +18,7 @@ Copyright (c) 2013-2018 brinkqiang (brink.qiang@gmail.com)
 
 ## Intro
 dmmd5
-```
+```cpp
 #include "dmmd5.h"
 #include <string>
 #include <iostream>
